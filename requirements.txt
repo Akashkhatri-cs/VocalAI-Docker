@@ -1,0 +1,18 @@
+Flask==3.0.3
+Flask-Cors==4.0.1
+Flask-PyMongo==2.3.0
+git+https://github.com/openai/whisper.git
+language-tool-python==2.8
+librosa==0.10.2.post1
+nltk==3.8.1
+numpy==1.26.4
+pydub==0.25.1
+pymongo==4.8.0
+pyjwt==2.8.0
+sentencepiece==0.2.0
+spacy==3.7.5
+tensorflow==2.16.1
+transformers==4.43.2
+vaderSentiment==3.3.2
+gunicorn
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889

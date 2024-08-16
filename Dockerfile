@@ -18,7 +18,7 @@ COPY . .
 
 # Install Python dependencies and download NLTK data
 RUN pip install --no-cache-dir -r requirements.txt && \
-    python -m nltk.downloader -d /usr/src/app/nltk_data stopwords && \
+    python -m nltk.downloader -d /usr/src/app/nltk_data punkt stopwords && \
     rm -rf /tmp/*
 
 # Ensure bcrypt is installed
